@@ -1,2 +1,2 @@
 # This is about payment
-## addind card info
+## adding card info
