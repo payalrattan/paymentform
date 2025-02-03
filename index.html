@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+   <div class="paymentpage">
+    <div class="header">
+        <h2 class="header-title">Order Summary</h2>
+        <div class="header-upper">
+            <p>Total</p>
+            <p>$333 / month</p>
+        </div>
+    <hr class="header-line">
+    <div class="header-lower">
+        <p>Total</p>
+        <p>$100</p>
+    </div>
+</div>
+<h2 class="payment title">Payment Method</h2>
+<div class="payment-button">
+    <button class="btn">
+        <img src="./public/cards.png" alt = "cards" width="150">
+        <p class="btn-p">Credit / Debit</p>
+    </button>
+    <button class="payment-button2 btn"><img src="./public/paypal.jpeg" alt = "cards" width="30">
+        <p class="btn-p">Paypal</p></button>
+</div>
+<h2 class="payment title">Card Info</h2>
+<div class="payment-cardInfo">
+    <form>
+        <div class="paymentlabel">
+            <label for="cardnumber" class="form-label" >Card Number</label>
+            <label for="expirydate" class="form-label">Expiry Date</label>
+            <label for="cvv" class="form-label">Security Code</label>
+            </div>
+            <div class="paymentinput">
+    <input type="text" placeholder="1234 1234 1234 1234" id="cardnumber" class="payment-input" style="width: 30%;">
+    
+    <input type="text" placeholder="MM/YY" id="expirydate" class="payment-input" style="width: 20%;">
+    
+    <input type="text" placeholder="CVV" id="cvv" class="payment-input" style="width: 20%;">
+    </div>
+<input type="submit" value="Buy Now" class="payment-submit ">
+<p class="payment-help">Need Help?</p>
+</form>
+</div>
+</div>
+</body>
+</html>
